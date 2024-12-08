@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "youtube-tg-bot"
+version = "0.1.0"
+description = "A Telegram bot to backup things for you"
+authors = ["Honk"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.7"
+yt-dlp = "^2024.11.18"
+telethon = "^1.38.1"
+cryptg = "^0.5.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
